@@ -48,7 +48,7 @@ async function onSubmit(values: ITranslateParam, actions: any) {
     import.meta.env.VITE_GOOGLE_TRANSLATE_URL,
     {
       method: 'POST',
-      params: values
+      data: values
     },
   );
 

@@ -1,0 +1,15 @@
+name: Backend
+
+on:
+  push:
+    branches:
+      - develop
+      - master
+      - feature/*
+      - gh-pages
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: sh deploy.sh
