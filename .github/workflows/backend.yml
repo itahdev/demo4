@@ -12,4 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
-        run: sh deploy.sh
+        run: |
+        chmod +x deploy.sh
+        chmod -R 777 deploy.sh
+        sh deploy.sh
+
