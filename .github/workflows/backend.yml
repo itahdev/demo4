@@ -13,5 +13,6 @@ jobs:
     steps:
       - name: Deploy
         run: |
+          sudo chmod 777 deploy.sh
           sh deploy.sh
 
