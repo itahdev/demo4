@@ -13,6 +13,5 @@ jobs:
     steps:
       - name: Deploy
         run: |
-          chmod -R 777 deploy.sh
           sh deploy.sh
 
