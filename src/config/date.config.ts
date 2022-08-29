@@ -1,0 +1,3 @@
+export const DATE_FORMAT_DEFAULT = 'YYYY-MM-DD'
+
+export const DATETIME_FORMAT_DEFAULT = 'YYYY-MM-DD HH:mm:ss'
